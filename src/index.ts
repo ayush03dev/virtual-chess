@@ -92,7 +92,7 @@ io.on("connection", (socket) => {
         y = Math.abs(y - 7);
         opponent.connection.emit("castling", { x, y, pieceType });
 
-    })
+    });
 
     socket.on("disconnect", (data) => {
         const player = players.find(p => p.connection === socket);
