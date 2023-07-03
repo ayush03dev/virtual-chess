@@ -1,0 +1,38 @@
+.home {
+    background-color: #282a36;
+    /* padding: 4rem; */
+    text-align: center;
+    border-radius: 2rem;
+    padding: 10rem 0rem;
+    color: white;
+    border: 1px solid white;
+}
+
+.home .title {
+    color: #f8f8f2;
+    font-weight: bold;
+}
+
+.home button {
+    background-color: #bd93f9;
+    color: white;
+    padding: 15px;
+    border-radius: 12px;
+    border: 0px;
+    width: 10rem;
+    font-weight: bold;
+}
+
+.home .field {
+    background-color: #f8f8f2;
+    border: 0;
+    height: 2rem;
+    border: none;
+    width: 50%;
+}
+
+.heading {
+    color: #ff79c6;
+    font-weight: bold;
+    font-family: monospace;
+}

@@ -1,0 +1,81 @@
+.board {
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.board .board-row {
+    height: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+    .board .board-row {
+        height: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .board .board-row {
+        height: 40px;
+    }
+}
+
+
+.board-modal {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.board-modal.hidden {
+    display: none;
+}
+
+.board-modal>.board-modal-body {
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% - 400px);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    width: 800px;
+    background-color: #252731;
+    color: white
+}
+
+.board-modal>.board-modal-body>img {
+    height: 120px;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.board-modal>.board-modal-body>img:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.board-modal>.board-modal-body>.checkmate-body {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.board-modal>.board-modal-body>.checkmate-body>span {
+    font-size: 32px;
+}
+
+.board-modal>.board-modal-body>.checkmate-body>button {
+    background-color: #ff79c6;
+    border: none;
+    border-radius: 8px;
+    padding: 24px 48px;
+    font-size: 32px;
+    color: white;
+}
+
+.board-modal>.board-modal-body>.checkmate-body>button:hover {
+    cursor: pointer;
+}
