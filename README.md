@@ -50,7 +50,7 @@ Features:
    ```sh
    cd client
    ```
-2. Install NPM packages from server
+2. Install NPM packages
    ```sh
    npm install
    ```
