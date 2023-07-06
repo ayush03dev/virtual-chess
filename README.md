@@ -1,9 +1,9 @@
 ## Description
-This is a multiplayer web-based chess game which allows play together remotely. Every single official rule of Chess is followed and taken care of.
+This is a multiplayer web-based chess game which allows users to play together remotely. Every single official rule of Chess is followed and taken care of.
 
 Features:
 
-- Can run multiple matches simultaneously
+- Can host multiple matches simultaneously
 - Ability to chat with opponent player
 - Supports both computer and mobile phone
 
